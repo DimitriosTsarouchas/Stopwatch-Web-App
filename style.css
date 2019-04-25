@@ -1,0 +1,65 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.container-fluid {
+    background: rgba(0,0,0,.5);
+}
+#header {
+    text-align: center;
+    font-size: 8vw;
+    text-shadow: 0rem 1rem 1rem #000000;
+}
+#lap {
+    text-align: right;
+    font-size: 4vw;
+    text-shadow: 0rem 1rem 1rem #000000;
+}
+#time {
+    text-align: center;
+    font-size: 10vw;
+    text-shadow: .5rem .5rem 0rem #000000;
+}
+#controlsContainer {
+    margin-bottom: 10%;
+}
+.control {
+    color: inherit;
+    background-color: chocolate;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 25% 0;
+    font-size: 3vw;
+    cursor: pointer;    
+}
+.control:active {
+    background-color: #ffffff;
+    color: chocolate;
+}
+.offset-4 {
+    margin-right: 15%;
+}
+#laps {
+    max-height: 50vw;
+    overflow-y: scroll;
+}
+.lap {
+    height: 8vw;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+.laptitle {
+    font-size: 5vw;
+    float: left;
+}
+.laptime {
+    font-size: 5vw;
+    float: right;
+}
