@@ -1,2 +1,2 @@
-# stopwatch
-Stopwatch App (HTML, CSS, Bootstrap, jQuery)
+# Stopwatch Web App
+Stopwatch Web Application built in HTML, CSS, Bootstrap, and jQuery.
